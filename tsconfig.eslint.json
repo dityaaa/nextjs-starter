@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    // lint javascript and typescript files
+    "**/*.js", "**/*.jsx",
+    "**/*.ts", "**/*.tsx",
+
+    // disable warning on config files
+    ".*.js"
+  ]
+}
